@@ -25,7 +25,9 @@ ADD_EXECUTABLE(banlog ${SOURCE_FILES})
 
 ADD_EXECUTABLE(IndexedBitsetUnitTest IndexedBitsetUnitTest.cpp IndexedBitset.hpp)
 ADD_EXECUTABLE(FileReaderUnitTest FileReaderUnitTest.cpp FileReader.hpp)
+ADD_EXECUTABLE(StringFinderUnitTest StringFinderUnitTest.cpp StringFinder.hpp)
 
 ENABLE_TESTING()
 ADD_TEST(NAME IndexedBitsetUnitTest COMMAND IndexedBitsetUnitTest)
 ADD_TEST(NAME FileReaderUnitTest COMMAND FileReaderUnitTest)
+ADD_TEST(NAME StringFinderUnitTest COMMAND StringFinderUnitTest)
